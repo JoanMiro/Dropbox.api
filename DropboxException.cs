@@ -18,7 +18,7 @@ namespace Dropbox.Api
         /// <summary>
         /// The request id.
         /// </summary>
-        private readonly string requestId;
+        private string requestId;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="DropboxException"/> class.
